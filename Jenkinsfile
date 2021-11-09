@@ -13,7 +13,6 @@ pipeline {
   }
 
   stages {
-  agent any
     // Build
     stage('Build') {
       steps {
